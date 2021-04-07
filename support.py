@@ -17,7 +17,8 @@ def RebinPhrases(nlp,par,maxC=200):
 
     # Divide the paragraph in sentences
     sents = nlp(par).sents
-    sents = [s.string.strip() for s in sents]
+    # sents = [s.string.strip() for s in sents]
+    sents = [s.text for s in sents]
     # Get the number of characters in each sentence
     lens = [len(s) for s in sents]
     # Keep adding to a bin until maxC lenght is reached

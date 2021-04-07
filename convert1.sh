@@ -1,0 +1,1 @@
+/Applications/calibre.app/Contents/MacOS/ebook-convert input/${1}.epub interm_txt/${1}.txt

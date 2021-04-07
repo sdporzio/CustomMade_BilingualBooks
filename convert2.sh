@@ -1,0 +1,1 @@
+/Applications/calibre.app/Contents/MacOS/ebook-convert interm_txt/${1}_bilang.txt output/${1}_bilang.epub
